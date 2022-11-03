@@ -10,6 +10,10 @@ body {
   font-family: sans-serif;
 }
 
+.jumbotron, header{
+  color: white;
+}
+
 /* Utils */
 
 .container {
@@ -57,14 +61,44 @@ header {
   background-color: goldenrod;
 }
 
+.navbar-logo{
+  padding: 5px;
+}
+
+.fa-discord{
+  background-color: white;
+  color: lightblue;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+h4{
+  display: inline-block;
+}
+
 .navbar-menu {
   flex-grow: 1;
-  text-align: center;
+  /*text-align: center;*/
+}
+
+.father-menu{
+  display: flex;
+  justify-content: space-around;
 }
 
 .navbar-actions {
   text-align: right;
+  padding: 5px;
 }
+
+#log-in{
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  border: 1px solid none;
+}
+
+
 
 /* # Jumbotron */
 
