@@ -10,15 +10,6 @@ body {
   font-family: sans-serif;
 }
 
-.jumbotron, header{
-  color: white;
-}
-
-.link{
-  text-decoration: none;
-  color: white;
-}
-
 /* Utils */
 
 .container {
@@ -48,6 +39,19 @@ body {
 
 header {
   background-color: lightblue;
+}
+
+.jumbotron, header{
+  color: white;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+}
+
+h1{
+  font-size: 40px;
 }
 
 /* # Navbar */
@@ -98,10 +102,9 @@ h4{
 
 .navbar-actions {
   text-align: right;
-  padding: 5px;
 }
 
-.login{
+.login, .navbar-actions{
   padding:5px;
 }
 
@@ -135,9 +138,11 @@ h4{
   margin: 50px auto;
 }
 
-
 .space{
   padding: 10px;
+}
+
+.alignment-title{
   text-align: center;
 }
 
@@ -166,6 +171,14 @@ section > .container {
 .flex > .small-col {
   flex-basis: 40%;
   background-color: pink;
+}
+
+.small-col > h1, p{
+  text-align: left;
+}
+
+.small-col{
+  margin: 40px 100px;
 }
 
 .flex > .large-col {
