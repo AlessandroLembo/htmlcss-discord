@@ -185,6 +185,12 @@ section > .container {
   margin: 40px 100px;
 }
 
+.img-position{
+  display: block;
+  width: 55%;
+  margin: 0 auto;
+}
+
 .flex > .large-col {
   flex-basis: 60%;
   background-color: dodgerblue;
