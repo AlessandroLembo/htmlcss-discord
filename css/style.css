@@ -14,6 +14,11 @@ body {
   color: white;
 }
 
+.link{
+  text-decoration: none;
+  color: white;
+}
+
 /* Utils */
 
 .container {
@@ -65,10 +70,15 @@ header {
   padding: 5px;
 }
 
+.navbar-logo > a{
+  font-size: 20px;
+  font-weight: 600;
+}
+
 .fa-discord{
   background-color: white;
   color: lightblue;
-  padding: 5px;
+  padding: 3px;
   border-radius: 3px;
 }
 
