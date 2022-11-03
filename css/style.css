@@ -91,7 +91,7 @@ h4{
   /*text-align: center;*/
 }
 
-.father-menu{
+.kids-menu{
   display: flex;
   justify-content: space-around;
 }
@@ -101,22 +101,23 @@ h4{
   padding: 5px;
 }
 
-#log-in{
-  border-radius: 10px;
-  border: none;
-  padding: 5px;
-  border: 1px solid none;
+.login{
+  padding:5px;
 }
 
-
-
 /* # Jumbotron */
+
+.login, .download-mac, .open-discord{
+  border-radius: 15px;
+  border: none;
+}
 
 .jumbotron {
   padding: 50px;
   height: 500px;
-  background-color: darkblue;
-
+  /*background-color: darkblue;*/
+  background-image: url("../img/jumbo.png");
+  background-size: cover;
   display: flex;
   justify-content: center;
 }
@@ -124,8 +125,32 @@ h4{
 .jumbotron .content {
   width: 50%;
   /* height: 100%; */
-  /* margin: 0 auto; */
+  /*margin: 0 auto;*/ 
   background-color: violet;
+  padding: 30px 140px;
+
+}
+
+.content-text{
+  margin: 50px auto;
+}
+
+
+.space{
+  padding: 10px;
+  text-align: center;
+}
+
+.download-mac, .open-discord{
+  margin: 15px;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.open-discord{
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
 }
 
 /* # Main & sections */
