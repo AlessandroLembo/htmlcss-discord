@@ -229,12 +229,12 @@ section > .container {
 footer {
   padding: 50px;
   background-color: #23272a;
-  /* color: white; */
+  /* color: white;  */
 }
 
 /* Footer-Top */
 .footer-top {
-  height: 600px;
+  min-height: 300px;
   padding-bottom: 30px;
   margin-bottom: 30px;
   border-bottom: 1px solid purple;
@@ -255,7 +255,15 @@ footer {
 /* details footer-left */
 #footer-claim{
   text-align: left;
+  padding: 0;
+}
+
+#footer-claim, .navcol-title{
   color: mediumpurple;
+}
+
+.choose-language{
+  margin: 15px 0;
 }
 
 #img-footer{
@@ -265,10 +273,6 @@ footer {
 .footer-icon > a{
   color: white;
   padding-right: 20px;
-}
-
-.footer-icon{
-  margin-top: 15px;
 }
 
 /* details footer-right */
@@ -294,7 +298,6 @@ li{
 }
 
 .navcol-title{
-  color: mediumpurple;
   text-decoration: none;
 }
 
