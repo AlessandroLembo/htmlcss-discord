@@ -10,8 +10,8 @@ body {
   font-family: sans-serif;
 }
 
-/* Utils */
 
+/* Utils */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -59,14 +59,12 @@ p{
 }
 
 /* Jumbotron e Header*/
-
 .jumbotron, header{
   color: white;
 }
 
 
 /* # Navbar */
-
 .navbar {
   height: 80px;
   display: flex;
@@ -108,6 +106,7 @@ p{
   text-align: right;
 }
 
+
 /* Details Button */
 .login{
   padding: 7px 10px;
@@ -128,13 +127,13 @@ p{
   color: white;
 }
 
-.download-mac{
+.download-mac, .login{
   background-color: white;
   color: black;
 }
 
-/* # Jumbotron */
 
+/* # Jumbotron */
 .jumbotron {
   padding: 50px;
   height: 500px;
@@ -151,7 +150,6 @@ p{
   /*margin: 0 auto;*/ 
   /* background-color: violet; */
   padding: 30px 140px;
-
 }
 
 .content-text{
@@ -162,44 +160,71 @@ p{
   text-align: center;
 }
 
+
 /* # Main & sections */
 section {
   padding: 50px;
-  height: 600px;
+  min-height: 600px;
 }
 
 section > .container {
-  height: 100%;
+  min-height: 100%;
 }
 
 .flex > .small-col {
   flex-basis: 40%;
-  background-color: pink;
+  /* background-color: pink; */
+}
+
+.flex > .large-col {
+  flex-basis: 60%;
+  /* background-color: dodgerblue; */
+}
+
+.flex > .full-col {
+  flex-basis: 100%;
+  /* background-color: darkgreen; */
+}
+
+
+/* Main details */
+.small-col{
+  margin: 30px 100px;
 }
 
 .small-col > h1, p{
   text-align: left;
 }
 
-.small-col{
-  margin: 30px 100px;
+.full-col > *{
+  padding-bottom: 10px;
 }
 
-.img-fullcol{
+.img-fullcol, .img-stars{
   display: block;
-  width: 55%;
   margin: 0 auto;
 }
 
-.flex > .large-col {
-  flex-basis: 60%;
-  background-color: dodgerblue;
+.img-fullcol{
+  width: 55%;
 }
 
-.flex > .full-col {
-  flex-basis: 100%;
-  background-color: darkgreen;
+.img-stars{
+  width: 30%;
 }
+
+.button-full-col{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.button-colour{
+  background-color: mediumpurple;
+  color: white;
+  width: 20%;
+}
+
 
 /* # Footer */
 
