@@ -26,8 +26,8 @@ body {
 }
 
 .debug .border {
-  border: 2px dashed black;
-}
+  /* border: 2px dashed black; */
+} 
 
 .bg-white {
   background-color: white;
@@ -41,28 +41,34 @@ header {
   background-color: lightblue;
 }
 
-.jumbotron, header{
-  color: white;
-}
-
-.link{
+.press{
   text-decoration: none;
   color: white;
+  border: none;
 }
 
 h1{
   font-size: 35px;
+  line-height: 1.2;
+  padding: 20px 0;
 }
 
 p{
-  font-size: 16px;
+   font-size: 16px; 
+   line-height: 1.6;
 }
+
+/* Jumbotron e Header*/
+
+.jumbotron, header{
+  color: white;
+}
+
 
 /* # Navbar */
 
 .navbar {
   height: 80px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -71,14 +77,12 @@ p{
 .navbar > * {
   padding: 10px;
   flex-basis: 20%;
-  background-color: goldenrod;
+  /*background-color: goldenrod;*/
 }
 
-.navbar-logo{
-  padding: 5px;
-}
 
-.navbar-logo, .footer-logo > a{
+/* details Navbar */
+.logo{
   font-size: 20px;
   font-weight: 600;
 }
@@ -88,10 +92,6 @@ p{
   color: lightblue;
   padding: 3px;
   border-radius: 3px;
-}
-
-h4{
-  display: inline-block;
 }
 
 .navbar-menu {
@@ -108,16 +108,32 @@ h4{
   text-align: right;
 }
 
-.login, .navbar-actions{
-  padding:5px;
+/* Details Button */
+.login{
+  padding: 7px 10px;
+  border-radius: 15px;
+}
+
+.download-mac, .open-discord{
+  margin: 20px 13px;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+.open-discord{
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.download-mac{
+  background-color: white;
+  color: black;
 }
 
 /* # Jumbotron */
-
-.login, .download-mac, .open-discord{
-  border-radius: 15px;
-  border: none;
-}
 
 .jumbotron {
   padding: 50px;
@@ -133,7 +149,7 @@ h4{
   width: 50%;
   /* height: 100%; */
   /*margin: 0 auto;*/ 
-  background-color: violet;
+  /* background-color: violet; */
   padding: 30px 140px;
 
 }
@@ -142,24 +158,8 @@ h4{
   margin: 50px auto;
 }
 
-.space{
-  padding: 10px;
-}
-
 .alignment-title{
   text-align: center;
-}
-
-.download-mac, .open-discord{
-  margin: 15px;
-  padding: 15px;
-  font-size: 15px;
-  font-weight: 700;
-}
-
-.open-discord{
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
 }
 
 /* # Main & sections */
@@ -182,10 +182,10 @@ section > .container {
 }
 
 .small-col{
-  margin: 40px 100px;
+  margin: 30px 100px;
 }
 
-.img-position{
+.img-fullcol{
   display: block;
   width: 55%;
   margin: 0 auto;
@@ -212,6 +212,19 @@ footer {
 #footer-claim{
   text-align: left;
   color: #8533ff;
+}
+
+#img-footer{
+  height: 20px;
+}
+
+.choose-language{
+  display: inline-block;
+}
+
+.it{
+  border: none;
+  
 }
 
 .footer-top {
