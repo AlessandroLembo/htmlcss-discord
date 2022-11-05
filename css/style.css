@@ -219,9 +219,12 @@ section > .container {
   text-align: center;
 }
 
-.button-colour{
+.button-colour, .register /*button footer */ {
   background-color: mediumpurple;
   color: white;
+}
+
+.button-colour {  
   width: 20%;
 }
 
@@ -286,14 +289,11 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 
 .footer-bottom > * {
   padding: 5px 10px;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
-.register{
-  color: white;
-}
